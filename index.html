@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Milo Smart TV</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #121212;
+    }
+    .app-icon {
+      transition: transform 0.3s;
+    }
+    .app-icon:hover {
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body class="text-white">
+
+  <div class="flex flex-col items-center justify-center min-h-screen space-y-10">
+    <h1 class="flex text-4xl font-bold mb-8 m-0 p-0">Milo Smart TV</h1>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+      <a href="https://www.netflix.com" target="_blank" class="app-icon p-4 bg-white rounded-lg flex items-center justify-center">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt="Netflix" class="h-16">
+      </a>
+      <a href="https://www.disneyplus.com" target="_blank" class="app-icon p-4 bg-blue-300 rounded-lg flex items-center justify-center">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Disney%2B_logo.svg" alt="Disney+" class="h-16">
+      </a>
+      <a href="https://www.crunchyroll.com" target="_blank" class="app-icon p-4 bg-white rounded-lg flex items-center justify-center">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/8/85/Crunchyroll_2024_stacked.svg" alt="Crunchyroll" class="h-16">
+      </a>
+      <a href="https://www.youtube.com" target="_blank" class="app-icon p-4 bg-white rounded-lg flex items-center justify-center">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png" alt="YouTube" class="h-16">
+      </a>
+      <a href="https://www.pluto.tv" target="_blank" class="app-icon p-4 bg-black rounded-lg flex items-center justify-center">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Pluto_TV_logo_2024.svg" alt="YouTube" class="h-16">
+      </a>
+      <a href="https://www.spotify.com" target="_blank" class="app-icon p-4 bg-gray-900 rounded-lg flex items-center justify-center">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg" alt="YouTube" class="h-16">
+      </a>
+    </div>
+  </div>
+
+</body>
+</html>
